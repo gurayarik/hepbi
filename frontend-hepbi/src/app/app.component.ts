@@ -10,4 +10,11 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'frontend-hepbi';
+  year = new Date().getFullYear();
+
+  /** İletişim e-postası — gerçek adresinizle değiştirin. */
+  contactEmail = 'info@hepbi.com';
+
+  /** İlerleme çubuğunda gösterilen yüzde (0–100). */
+  progress = 80;
 }
